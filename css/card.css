@@ -1,0 +1,136 @@
+/* Styles for work card */
+
+.work-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.work-card {
+    width: 80%;
+    max-width: 90%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    color: #2b2d42;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.work-card:hover {
+    box-shadow: 0px 1rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.work-company {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: start;
+    align-items: center;
+    /* background-color: #fff; */
+    padding: 1.2rem;
+    font-size: 2rem;
+    color: #999;
+}
+
+.work-company:hover {
+    cursor: pointer;
+}
+
+.work-company p {
+    color: #444;
+    font-weight: 700;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+}
+
+.work-company img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.work-company img:hover {
+    cursor: pointer;
+}
+
+.work-title-date {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-title-date span {
+    font-weight: 600;
+}
+
+.work-title-date:first-child {
+    font-weight: 600;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid #999;
+}
+
+.work-details {
+    padding-left: 1.2rem;
+    display: none;
+    flex-direction: column;
+    gap: 1.2rem;
+    transition: all 0.4s ease;
+}
+
+.job-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+}
+
+
+.job-desc p:first-child {
+    color: red;
+    font-weight: 700;
+}
+
+.job-desc p:last-child {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+.job-desc a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.my-role ul {
+    padding-bottom: 1.2rem;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.my-role ul p {
+    color: red;
+    font-weight: 700;
+}
+
+@media screen and (max-width:676px) {
+    .work-card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .work-title-date {
+        font-size: 1rem;
+    }
+}
