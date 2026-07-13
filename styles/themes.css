@@ -1,0 +1,25 @@
+body.dark {
+    --bg-primary: #121212;
+    --bg-secondary: #1d1d1d;
+    --bg-card: #252525;
+    --bg-hover: #323232;
+
+    --text-primary: #d4d3d3;
+    --text-secondary: #b5b5b5;
+    --text-muted: #888888;
+
+    --accent: #66d9a3;
+    --danger: #ff6b6b;
+
+    --link: hsl(213, 100%, 74%);
+    --link-hover: hsl(213, 100%, 64%);
+    
+
+    --border: #3d3d3d;
+
+    --shadow: rgba(0,0,0,.55);
+    --shadow-hover: rgba(0,0,0,.75);
+
+    /* Makes black PNG icons white */
+    --icon-filter: invert(1);
+}

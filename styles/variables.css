@@ -1,0 +1,30 @@
+:root {
+    /* Backgrounds */
+    --bg-primary: #edf2f4;
+    --bg-secondary: #f9f9f9;
+    --bg-card: #ffffff;
+    --bg-hover: #d8e6ec;
+
+    /* Text */
+    --text-primary: #2b2d42;
+    --text-secondary: #777777;
+    --text-muted: #aaaaaa;
+
+    /* Accent */
+    --accent: #5a9079;
+    --danger: #d62828;
+
+    /* Links */
+    --link: #2563eb;
+    --link-hover: #1d4ed8;
+
+    /* Borders */
+    --border: #d4d4d4;
+
+    /* Shadows */
+    --shadow: rgba(0, 0, 0, .10);
+    --shadow-hover: rgba(0, 0, 0, .18);
+
+    /* Icons */
+    --icon-filter: none;
+}
