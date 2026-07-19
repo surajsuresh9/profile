@@ -32,7 +32,7 @@
 .work-company {
     display: flex;
     gap: 1.5rem;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     /* background-color: #fff; */
     padding: 1.2rem;
@@ -144,4 +144,20 @@
     .work-title-date {
         font-size: 1rem;
     }
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.logo-title img {
+    aspect-ratio: 1;
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    filter: var(--icon-filter, none);
+    transition: filter .3s ease;
+    flex-shrink: 0;
 }

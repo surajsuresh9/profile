@@ -1,16 +1,24 @@
 export const workInfo = [
-  // {
-  //     id: 1,
-  //     company: 'Publicis Sapient',
-  //     jobTitle: 'Senior Associate L2',
-  //     from: 'Sept 2025', to: 'Present',
-  //     location: 'Bengaluru, KA',
-  //     companyDetails: "<a class="company_name" href="https://www.publicissapient.com" target=_blank>Publicis Sapient</a> is a digital consulting company belonging to Publicis Groupe, with 20,000 people and over 50 offices worldwide. It was originally established as Sapient in Cambridge, Massachusetts in 1990.[2][3] In 2015, Sapient became an independent subsidiary of French multinational advertising firm Publicis.",
-  //     jobDetails: ['Part of the UMA team., reponsible for the full scale modernization of the order processing module.', 'Static code analysis, removal of deprecated modules, reduction in code debt.', 'Code to spec, spec to code transformation of COBOL to Java using Gen AI tools like Claude and GPT 4o.', 'Figma diagram analysis and template generation.', 'Creation of relevent sequence diagrams and other project critical documentation.']
-  // },
-
+  {
+    id: 1,
+    logo: "/img/company_logo/light/sapient_logo.png",
+    company: "Publicis Sapient",
+    jobTitle: "Senior Associate L2",
+    from: "Sept 2025",
+    to: "Present",
+    location: "Bengaluru, KA",
+    companyDetails:
+      "<a class='company_name' href='https://www.publicissapient.com' target=_blank>Publicis Sapient</a> is a digital consulting company belonging to Publicis Groupe, with 20,000 people and over 50 offices worldwide. It was originally established as Sapient in Cambridge, Massachusetts in 1990.[2][3] In 2015, Sapient became an independent subsidiary of French multinational advertising firm Publicis.",
+    jobDetails: [
+      "Led modernization of <b>legacy COBOL-based financial applications</b>, migrating business workflows to <b>Java 17</b>, <b>Spring Boot</b>, and modern enterprise architecture.",
+      "Reverse-engineered <b>COBOL</b> programs to extract business rules and reimplemented validation using the <b>Drools Rule Engine</b>, eliminating mainframe-dependent processing.",
+      "Optimized database interactions, reducing validation runtime by <b>40%</b> (<i>2.0s → 1.2s</i>) while removing legacy code dependencies.",
+      "Delivered production-ready migration components through <b>code refactoring</b>, documentation, unit/integration testing, regression validation, and performance benchmarking.",
+    ],
+  },
   {
     id: 2,
+    logo: "/img/company_logo/light/persistent_logo.png",
     company: "Persistent Systems",
     jobTitle: "Senior Engineering Lead",
     from: "Jul 2023",
@@ -28,6 +36,7 @@ export const workInfo = [
 
   {
     id: 3,
+    logo: "/img/company_logo/light/infosys_logo.png",
     company: "Infosys",
     jobTitle: "Technology Analyst",
     from: "Sept 2022",
@@ -45,6 +54,7 @@ export const workInfo = [
 
   {
     id: 4,
+    logo: "/img/company_logo/light/coforge_logo.png",
     company: "Coforge",
     jobTitle: "Senior Software Engineer",
     from: "Dec 2021",
@@ -62,6 +72,7 @@ export const workInfo = [
 
   {
     id: 5,
+    logo: "/img/company_logo/light/yethi_logo.png",
     company: "Yethi Consulting",
     jobTitle: "Senior Software Engineer",
     from: "Feb 2021",
@@ -79,6 +90,7 @@ export const workInfo = [
 
   {
     id: 6,
+    logo: "/img/company_logo/light/pft_logo.png",
     company: "Prime Focus Technologies",
     jobTitle: "Software Engineer",
     from: "Nov 2019",
@@ -96,6 +108,7 @@ export const workInfo = [
 
   {
     id: 7,
+    logo: "/img/company_logo/light/tcs_logo.png",
     company: "Tata Consultancy Service",
     jobTitle: "Asssitant Systems Engineer",
     from: "Feb 2017",
