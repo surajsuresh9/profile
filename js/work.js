@@ -1,7 +1,7 @@
 export const workInfo = [
   {
     id: 1,
-    logo: "/img/company_logo/sapient_logo.png",
+    logo: "./img/company_logo/sapient_logo.png",
     company: "Publicis Sapient",
     jobTitle: "Senior Associate L2",
     from: "Sept 2025",
@@ -18,7 +18,7 @@ export const workInfo = [
   },
   {
     id: 2,
-    logo: "/img/company_logo/persistent_logo.png",
+    logo: "./img/company_logo/persistent_logo.png",
     company: "Persistent Systems",
     jobTitle: "Senior Engineering Lead",
     from: "Jul 2023",
@@ -36,7 +36,7 @@ export const workInfo = [
 
   {
     id: 3,
-    logo: "/img/company_logo/infosys_logo.png",
+    logo: "./img/company_logo/infosys_logo.png",
     company: "Infosys",
     jobTitle: "Technology Analyst",
     from: "Sept 2022",
@@ -54,7 +54,7 @@ export const workInfo = [
 
   {
     id: 4,
-    logo: "/img/company_logo/coforge_logo.png",
+    logo: "./img/company_logo/coforge_logo.png",
     company: "Coforge",
     jobTitle: "Senior Software Engineer",
     from: "Dec 2021",
@@ -72,7 +72,7 @@ export const workInfo = [
 
   {
     id: 5,
-    logo: "/img/company_logo/yethi_logo.png",
+    logo: "./img/company_logo/yethi_logo.png",
     company: "Yethi Consulting",
     jobTitle: "Senior Software Engineer",
     from: "Feb 2021",
@@ -90,7 +90,7 @@ export const workInfo = [
 
   {
     id: 6,
-    logo: "/img/company_logo/pft_logo.png",
+    logo: "./img/company_logo/pft_logo.png",
     company: "Prime Focus Technologies",
     jobTitle: "Software Engineer",
     from: "Nov 2019",
@@ -108,7 +108,7 @@ export const workInfo = [
 
   {
     id: 7,
-    logo: "/img/company_logo/tcs_logo.png",
+    logo: "./img/company_logo/tcs_logo.png",
     company: "Tata Consultancy Service",
     jobTitle: "Asssitant Systems Engineer",
     from: "Feb 2017",
